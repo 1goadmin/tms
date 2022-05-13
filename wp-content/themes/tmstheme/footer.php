@@ -8,13 +8,10 @@
     <div class="ft-col">
       <span class="ft-title">Solutions</span>
       <ul class="contacts" style="margin-left: 2.9rem;">
-        <li class="footer-company-name" ><a  href="/onedotcom/#about-us" aria-label="about"  style="font-weight:bold;">CMDIS</a></li>
-        <li>
-          <p class="footer-company-name">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d labore et dolore
-            magna aliqua."</p>
-        </li>
+        <li class="footer-company-name" ><a  href="/onedotcom/#about-us" aria-label="about">Outsourced</a></li>
+        <li class="footer-company-name" ><a  href="/onedotcom/#about-us" aria-label="about">Enterprise</a></li>
         <li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" alt="logo"
-          style="width: 12rem; margin-top: 2rem;"></a>
+          style="width: 12rem; margin-top: 7.2rem;"></a>
       </li>
       </ul>
     </div>
@@ -37,7 +34,7 @@
                 style="border-radius: 20px; text-align: center;"></i></a>
             <a href="#" id="address" aria-label="address">Las Pinas
               Cargo Complex
-              J. Aguilar avenue,<br> Talon Uno
+              J. Aguilar Avenue, Talon Uno,
               Las Pinas City, 1747,
               Philippines
             </a>

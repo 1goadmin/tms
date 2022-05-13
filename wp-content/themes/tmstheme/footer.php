@@ -11,7 +11,7 @@
         <li class="footer-company-name" ><a  href="/onedotcom/#about-us" aria-label="about">Outsourced</a></li>
         <li class="footer-company-name" ><a  href="/onedotcom/#about-us" aria-label="about">Enterprise</a></li>
         <li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" alt="logo"
-          style="width: 12rem; margin-top: 7.2rem;"></a>
+          style="width: 12rem; margin-top: 6.9rem;"></a>
       </li>
       </ul>
     </div>

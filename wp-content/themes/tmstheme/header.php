@@ -23,7 +23,7 @@
     <ul class="menu">
       <div class="logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/1golog.svg" alt=""></a></div>
       <li class="toggle" ><a rel="nofollow" href="#" onClick='(false)' aria-label="toggle"><i class="fas fa-bars"></i></a></li>
-      <li class="item" ><a href="#">SOLUTIONS</a>  <!--class = "item sol has-submenu2"-->
+      <li class="item" ><a href="<?=bloginfo('url');?>/#solutions">SOLUTIONS</a>  <!--class = "item sol has-submenu2"-->
         <!-- <ul class="submenu2">
           <li class="sub-item2"><a href="#">Outsourced TMS</a></li>
           <li class="sub-item2"><a href="#">Enterprise TMS</a></li>

@@ -37,7 +37,6 @@
           <li class="sub-item"><a href="#">VIDEOS</a></li>
         </ul>
       </li>
-      <li class="item"><a href="https://in1gotech.com/careers/">CAREERS</a></li>
       <li class="item" id="contactUS"><a href="https://in1gotech.com/message-us/">CONTACT US</a></li>
     </ul>
   </nav>

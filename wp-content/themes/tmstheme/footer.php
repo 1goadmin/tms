@@ -21,7 +21,6 @@
             <li><a href="https://in1gotech.com/partners/" aria-label="partners">Partners</a></li>
             <li><a href="https://in1gotech.com/patrons/" aria-label="clients">Clients</a></li>
             <li><a href="#" aria-label="services">Resources</a></li>
-            <li><a href="https://in1gotech.com/careers/" aria-label="careers">Careers</a></li>
             <li><a href="https://in1gotech.com/message-us/" aria-label="contact us">Contact Us</a></li>
       </ul>
     </div>

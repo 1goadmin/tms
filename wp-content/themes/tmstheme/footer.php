@@ -18,11 +18,11 @@
     <div class="ft-col">
       <span class="ft-title">Company</span>
         <ul class="contacts" style="margin-left: 2.9rem;">
-            <li><a href="/onedotcom/#about-us" aria-label="about">Partners</a></li>
-            <li><a href="/onedotcom/ecomm-auto/" aria-label="ecommerce automation">Clients</a></li>
-            <li><a href="/onedotcom/#ecomm-sevices" aria-label="services">Resources</a></li>
-            <li><a href="/onedotcom/#contact" aria-label="contact us">Careers</a></li>
-            <li><a href="/onedotcom/#contact" aria-label="contact us">Contact Us</a></li>
+            <li><a href="https://in1gotech.com/partners/" aria-label="partners">Partners</a></li>
+            <li><a href="https://in1gotech.com/patrons/" aria-label="clients">Clients</a></li>
+            <li><a href="#" aria-label="services">Resources</a></li>
+            <li><a href="https://in1gotech.com/careers/" aria-label="careers">Careers</a></li>
+            <li><a href="https://in1gotech.com/message-us/" aria-label="contact us">Contact Us</a></li>
       </ul>
     </div>
     <div class="ft-col" >

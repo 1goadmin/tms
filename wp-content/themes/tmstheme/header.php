@@ -29,16 +29,16 @@
           <li class="sub-item2"><a href="#">Enterprise TMS</a></li>
          </ul> -->
       </li>
-      <li class="item"><a href="#">PARTNERS</a></li>
-      <li class="item"><a href="#">CLIENTS</a></li>
+      <li class="item"><a href="https://in1gotech.com/partners/">PARTNERS</a></li>
+      <li class="item"><a href="https://in1gotech.com/patrons/">CLIENTS</a></li>
       <li class="item has-submenu" id="divi"><a rel="nofollow" tabindex="0" onClick='(href="#")'  id="div1">RESOURCES</a>
         <ul class="submenu">
          <li class="sub-item"><a href="#">BlOGS</a></li>
           <li class="sub-item"><a href="#">VIDEOS</a></li>
         </ul>
       </li>
-      <li class="item"><a href="#">CAREERS</a></li>
-      <li class="item" id="contactUS"><a href="#">CONTACT US</a></li>
+      <li class="item"><a href="https://in1gotech.com/careers/">CAREERS</a></li>
+      <li class="item" id="contactUS"><a href="https://in1gotech.com/message-us/">CONTACT US</a></li>
     </ul>
   </nav>
 </header>

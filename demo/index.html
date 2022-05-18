@@ -80,15 +80,15 @@ img.emoji {
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dfb077b" data-id="dfb077b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-84f08ae elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="84f08ae" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f4aaef5" data-id="f4aaef5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-c6533f6 elementor-widget elementor-widget-heading" data-id="c6533f6" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-large">Contact Us</h2>		</div>
 				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-84f08ae elementor-section-height-min-height elementor-section-boxed elementor-section-height-default" data-id="84f08ae" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f4aaef5" data-id="f4aaef5" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-9ef1399 elementor-widget elementor-widget-ha-wpform happy-addon ha-wpform" data-id="9ef1399" data-element_type="widget" data-widget_type="ha-wpform.default">
+				<div class="elementor-element elementor-element-9ef1399 elementor-widget elementor-widget-ha-wpform happy-addon ha-wpform" data-id="9ef1399" data-element_type="widget" data-widget_type="ha-wpform.default">
 				<div class="elementor-widget-container">
 			<div class="wpforms-container wpforms-container-full" id="wpforms-1434"><form id="wpforms-form-1434" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="1434" method="post" enctype="multipart/form-data" action="/tms/demo/" data-token="29c5e045933b09e778609496ea780f72">
 <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
@@ -121,8 +121,132 @@ img.emoji {
 					</div>
 		</div>
 				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e461c25" data-id="e461c25" data-element_type="column">
-			<div class="elementor-widget-wrap">
-									</div>
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7c0b6e2 elementor-widget elementor-widget-html" data-id="7c0b6e2" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<!-- partial:index.partial.html -->
+<style>.faq-header{
+  font-size: 25px;
+  border-bottom: 1px dotted #ccc;
+  padding: 2px 24px 24px 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+.faq-content {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.panel-title {
+  font-size: 17px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  font-size: 17px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 0;
+  z-index: 5;
+  right: 0;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}</style>
+<div class="faq-header">Frequently Asked <br> Questions</div>
+
+<div class="faq-content">
+  <div class="faq-question">
+    <input id="q1" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q1" class="panel-title">I’m hearing a lot about TMS recently, and want to know if my company is a good candidate for a TMS?</label>
+    <div class="panel-content">
+<b>Currently, only about 40 percent of qualified shippers are using a TMS.</b>
+This means that there are a lot of companies out there that have not yet unlocked the value of using a TMS. With that being said, shippers need to understand how they might benefit from a system, and not every shipper has the same needs. It’s really better to understand what current problems there are in the sourcing, planning, executing, and payment process that might best justify the investment in a system.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q2" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q2" class="panel-title">What are some benefits of TMS for shippers?</label>
+    <div class="panel-content">
+<b>Well, it depends on the type of operation or shipper you are.</b>
+Generally speaking, there are savings from better rate management and carrier selection, optimization, EDI/connectivity, process improvements, and analytics. Roughly speaking, a shipper can save 2-15 percent depending on what they can implement effectively.  For example, retailers who are controlling their inbound might find significant savings from consolidation and optimization from gaining better visibility to their inbound orders. A manufacturer or distributor might gain the most value from better carrier selection and outbound route optimization. All companies generally benefit from the visibility and event management; they can be more proactive and avoid “problem” shipments, which provides better service to their own operation or to their customers.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q3" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q3" class="panel-title">How much does a TMS cost?</label>
+    <div class="panel-content">
+<b>TMS pricing varies based on the vendors and delivery model.</b>
+Some TMS providers price based on the freight spend because they know that larger shippers will have a larger return-on-investment (ROI). Other vendors charge based on the transaction count. There are several ways to purchase a TMS, but the most common are 1.) purchasing a perpetual license or 2.) Software-as-a-Service (Saas). Purchasing a license is more costly upfront, however the long-term costs are lower. SaaS is a cheaper “rental” model, but long-term, the shipper will pay more. It’s just like renting a home versus buying one.</div>
+  </div>
+  
+   <div class="faq-question">
+    <input id="q4" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q4" class="panel-title"> Are there any other TMS costs besides the TMS license or subscription?</label>
+    <div class="panel-content">
+<b>Yes, there are a few.</b>
+Some There is annual maintenance, which is usually 20 percent of the license. Also, you’ll have to subscribe to several 3rd party software, such as rating modules for carrier pricing like SMC3’s Czarlite or mileage engines like PM*Miller or Rand McNally. Finally, you’ll have to pay for implementation; this can be very pricey depending on the scope, complexity of the operation, integration requirements, and training. Implementation can be done by the software provider or by a third party.</div>
+  </div>
+  
+</div>
+<!-- partial -->
+		</div>
+				</div>
+					</div>
 		</div>
 							</div>
 		</section>

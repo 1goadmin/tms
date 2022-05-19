@@ -18,11 +18,11 @@
 <?php wp_head();?>
 <script src="https://kit.fontawesome.com/a5b3b870d7.js" crossorigin="anonymous"></script>
 </head>
-<header class="container-fluid header-active">
-    <nav class="fixed-nav-bar" id="navbar">
+<header class="container-fluid header-active ">
+    <nav class="fixed-nav-bar nav-container" id="navbar">
     <ul class="menu">
-      <div class="logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/1golog.svg" alt=""></a></div>
-      <li class="toggle" ><a rel="nofollow" href="#" onClick='(false)' aria-label="toggle"><i class="fas fa-bars"></i></a></li>
+      <div class="logo"><a href="<?=bloginfo('url');?>/"><img src="<?php echo get_template_directory_uri(); ?>/img/1golog.svg" alt=""></a></div>
+      <li class="toggle" ><a rel="nofollow" href="#" onClick='(false)' aria-label="toggle"><i class="fas fa-bars" id="togmenu" ></i></a></li>
       <li class="item" ><a href="<?=bloginfo('url');?>/#solutions">SOLUTIONS</a>  <!--class = "item sol has-submenu2"-->
         <!-- <ul class="submenu2">
           <li class="sub-item2"><a href="#">Outsourced TMS</a></li>

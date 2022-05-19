@@ -139,6 +139,14 @@ a:focus {
   padding-left: 12%;
 }
 
+.bgswitch {
+    background-color: #f8f8f8;
+	color:#222222;
+  }
+
+.bgswitch  a {
+	color:#222222;
+  }
 
 .grid {
     grid-column-gap: var(--grid-spacing-horizontal);
@@ -151,7 +159,7 @@ a:focus {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 510px;
+    width: 100%;
     padding-right: 0;
     padding-left: 0;
   }
@@ -159,19 +167,48 @@ a:focus {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 700px;
+    width: 100%;
   }
+}
+
+
+@media (max-width: 800px) {
+  .container, .container-fluid {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .logo img {
+    left: 10% !important;
+  }
+  .container {
+    width: 100% !important;
+	margin 0;
+	  
+  }
+	
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 920px;
+    width: 100%;
+	margin 0;
+	  
+  }
+ 
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 100%;
   }
 }
 
+
 @media (min-width: 1200px) {
   .container {
-    max-width: 1130px;
+    width: 100%;
   }
 }
 
@@ -580,6 +617,11 @@ footer {
 
   }
 
+		
+	.ft-logo{
+		margin-top: 6.9rem;
+	  }
+
 
 footer a{
   font-weight: 500;
@@ -707,6 +749,7 @@ footer a{
       height: max-content;
       padding-bottom: 1rem;
       padding-top: 2rem !important;
+		
     }
   
   
@@ -755,10 +798,17 @@ footer a{
       height: max-content;
       padding-bottom: 1rem;
     }
-
+		
+	  
+	 .ft-logo{
+		margin-top: 3rem !important;
+	  }
+	  
+	  
+	  
     .ft {
       height: max-content;
-      padding: 0;
+      padding: 0 14% 0 0;
       flex-direction: column;
       margin: .7rem 0 .7rem 0;
     }
@@ -767,12 +817,12 @@ footer a{
       height: max-content;
       margin: 0;
       font-size: 11px;
-      padding: 1rem;
+      padding: 0 1.1rem 1.5rem 0;
       line-height: 1rem;
     }
 
     .ft-col ul li {
-      margin: 1rem;
+     margin: 0.2rem;
     }
 
     .ft-col a {
@@ -785,7 +835,7 @@ footer a{
 
     .contacts {
       margin: 0.2rem !important;
-      gap: 2px !important;
+      gap: 13px !important;
     }
       .ft-title,
     .ft-logo {
@@ -795,17 +845,21 @@ footer a{
     .ft-title,
     .ft-logo {
       margin-bottom: .7rem;
-      text-align: center;
+      text-align: center !important;
 
     }
-
+	  
+	  .ft-col span {
+	     margin: 0 0.5rem 0.8rem 1.5rem;
+	  }
+	  
     .footer-company-about {
 
       margin: 1rem 1rem 0 1rem
     }
 
     .footer-company-name {
-      text-align: center;
+    /*text-align: center; */
     }
 
     .solicons {

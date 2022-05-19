@@ -700,7 +700,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: auto;
+    margin-right: 0;
     margin-left: auto;
     position: relative; }
     @media (max-width: 1024px) {
@@ -3483,3 +3483,19 @@ button.swiper-pagination-bullet {
         --fill: var( --color );
         color: var(--color); }
 /*# sourceMappingURL=frontend-lite.css.map */
+
+
+
+
+/* !Overrrides */
+@media  (max-width: 820px) and (min-width: 770px){
+  .elementor-section {
+    width: 100vw;
+}
+  }
+
+@media  (max-width: 100px) and (min-width: 0px){
+    .elementor-section {
+      width: 100vw;
+ }
+ /* Overrrides */

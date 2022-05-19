@@ -1,16 +1,35 @@
 //!Toggle mobile menu -------------------------------------------------------------------------------------------------------------------------->
+
+
+
+//! Prevent Anchor Redirects
+$(document).ready(function () {
+  $("#togmenu").click(function (event) {
+    event.preventDefault();
+  });
+});
+//! Prevent Redirects
+
+
+
+//
 //!I suggest to leave this function for it might break the whole navigation menu
 let toggle = document.querySelector('.toggle');
 let menu = document.querySelector('.menu');
-function toggleMenu() {
-    if (menu.classList.contains('active')) {
+const navcolor = document.querySelector(".nav-container");function toggleMenu() {
+   if (
+    menu.classList.contains("active") &&
+    navcolor.classList.contains("bgswitch")
+  		)  {
         menu.classList.remove('active');
+		navcolor.classList.remove("bgswitch");
         //*adds the menu(burger)
         toggle.querySelector("a").innerHTML = "<i class='fa fa-bars'></i>";
         document.getElementById("div1").removeAttribute("onclick");
         document.on
     } else {
         menu.classList.add("active");
+		navcolor.classList.add("bgswitch");
         //*adds the close(x) icon
         document.getElementById("div1").setAttribute("onclick", "return false;");
         toggle.querySelector("a").innerHTML = "<i class='fa fa-times'></i>";
@@ -18,6 +37,33 @@ function toggleMenu() {
 }
 //*Event listener
 toggle.addEventListener('click', toggleMenu, false);
+// 
+
+// const toggle = document.querySelector(".toggle");
+// const menu = document.querySelector(".menu");
+// const navcolor = document.querySelector(".nav-container");
+// function toggleMenu() {
+//   if (
+//     menu.classList.contains("active") &&
+//     navcolor.classList.contains("bgswitch")
+//   ) {
+//     menu.classList.remove("active");
+//     navcolor.classList.remove("bgswitch");
+//     // Todo adds the menu (burger)
+//     toggle.querySelector("a").innerHTML = "<i class='fa fa-bars'></i>";
+//     document.on;
+//     // $(".invlogo").attr("src", initialSrc)
+//   } else {
+//     menu.classList.add("active");
+//     navcolor.classList.add("bgswitch");
+//     //todo adds the close(x) icon
+//     toggle.querySelector("a").innerHTML = "<i class='fa fa-times'></i>";
+//     $(".invlogo").attr("src", scrollSrc);
+//   }
+// }
+
+// toggle.addEventListener("click", toggleMenu, false);
+
 //!Toggle Mobile Menu -------------------------------------------------------------------------------------------------------------------------->
 //!Submenu ------------------------------------------------------------------------------------------->
 // ? there ar two choices of navmenu hover properties its either this or the new one

@@ -11,6 +11,6 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /tms/index.php [L]
+Header set Access-Control-Allow-Origin "*"
 </IfModule>
-
 # END WordPress

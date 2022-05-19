@@ -10,8 +10,8 @@
       <ul class="contacts" style="margin-left: 2.9rem;">
         <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/#solutions" aria-label="outsourced">Outsourced</a></li>
         <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/#solutions" aria-label="enterprise">Enterprise</a></li>
-        <li class="ft-logo"><a href="#" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" alt="logo"
-          style="width: 12rem; margin-top: 6.9rem;"></a>
+        <li class="ft-logo"><a href="#" class="ft-logo" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" alt="logo"
+          style="width: 12rem;"></a>
       </li>
       </ul>
     </div>

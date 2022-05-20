@@ -37,7 +37,7 @@
           <li class="sub-item"><a href="#">VIDEOS</a></li>
         </ul>
       </li>
-      <li class="item" id="contactUS"><a href="https://in1gotech.com/message-us/" target="_blank">CONTACT US</a></li>
+      <li class="item" id="contactUS"><a href="<?=bloginfo('url');?>/#contactus">CONTACT US</a></li>
     </ul>
   </nav>
 </header>

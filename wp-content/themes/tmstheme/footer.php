@@ -8,8 +8,8 @@
     <div class="ft-col">
       <span class="ft-title">Solutions</span>
       <ul class="contacts" style="margin-left: 2.9rem;">
-        <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/#solutions" aria-label="outsourced">Outsourced</a></li>
-        <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/#solutions" aria-label="enterprise">Enterprise</a></li>
+        <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/outs/" aria-label="outsourced">Outsourced</a></li>
+        <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/ent/" aria-label="enterprise">Enterprise</a></li>
       </ul><img class="ft-logo" aria-label="footerlogo" src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" 			alt="logo"
           style="width: 12rem;">
     </div>

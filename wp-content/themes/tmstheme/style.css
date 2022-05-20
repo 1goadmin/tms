@@ -822,7 +822,13 @@ footer a{
       padding: 0 1.1rem 1.5rem 0;
       line-height: 1rem;
     }
-
+	  
+	  .ft-col a:hover{
+		color: #007fd0 !important;
+	  }
+	  
+	
+	  
     .ft-col ul li {
      margin: 0.2rem;
     }
@@ -830,7 +836,7 @@ footer a{
     .ft-col a {
       margin: .09rem;
     }
-
+	
     #email {
       margin-top: 1rem;
     }

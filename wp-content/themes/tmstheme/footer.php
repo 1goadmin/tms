@@ -10,10 +10,8 @@
       <ul class="contacts" style="margin-left: 2.9rem;">
         <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/#solutions" aria-label="outsourced">Outsourced</a></li>
         <li class="footer-company-name" ><a  href="<?=bloginfo('url');?>/#solutions" aria-label="enterprise">Enterprise</a></li>
-        <li class="ft-logo"><a href="#" class="ft-logo" aria-label="footerlogo"><img src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" alt="logo"
-          style="width: 12rem;"></a>
-      </li>
-      </ul>
+      </ul><img class="ft-logo" aria-label="footerlogo" src="<?php echo get_template_directory_uri(); ?>/img/TR-Testmark.svg" 			alt="logo"
+          style="width: 12rem;">
     </div>
     <div class="ft-col">
       <span class="ft-title">Company</span>
@@ -66,7 +64,7 @@
       </ul>
     </div>
   </section>
-  <h6 class="toc"><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+  <h6 class="toc"><a href="#">Copyright © 2022 1GoLogistics</a> | <a href="https://in1gotech.com/privacy-policy/"target="_blank">Privacy Policy</a>
   </h6>
 </footer>
 <style>

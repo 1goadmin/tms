@@ -723,7 +723,8 @@ footer a{
   
   
   .toc {
-    margin: 3rem 0 0 0;
+     margin: 4rem 3rem 0 0;
+    font-size: 12px;
     font-size: 12px;
     letter-spacing: 1.9px;
     color: #f8f8f8;

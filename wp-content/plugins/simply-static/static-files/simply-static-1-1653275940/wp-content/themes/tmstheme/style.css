@@ -715,18 +715,17 @@ footer a{
     gap: 15px;
     line-height: 2.4;
   }
-  
-  
+
   .ft-contacts {
     display: flex;
     flex-direction: row;
   }
-  
+
   .footer-company-about {
     margin-left: .3rem;
   }
-  
-  
+
+
   .toc {
      margin: 4rem 3rem 0 0;
     font-size: 12px;
@@ -734,17 +733,17 @@ footer a{
     letter-spacing: 1.9px;
     color: #f8f8f8;
   }
-  
+
   .toc a {
     text-decoration: none;
     color: #f8f8f8;
   }
-  
+
 
   .toc a:hover {
     color: #007fd0;
   }
-  
+
   .sol-icons {
     margin: .5rem 0 0 2rem;
   }

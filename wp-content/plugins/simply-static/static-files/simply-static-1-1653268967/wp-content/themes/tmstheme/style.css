@@ -671,6 +671,11 @@ footer a{
     color: #f8f8f8;
   }
 
+  .ft-col a:hover{
+		color: #007fd0;
+	  }
+
+
   .ft-col p {
     font-size: small;
     color: #f8f8f8;
@@ -733,6 +738,11 @@ footer a{
   .toc a {
     text-decoration: none;
     color: #f8f8f8;
+  }
+  
+
+  .toc a:hover {
+    color: #007fd0;
   }
   
   .sol-icons {
@@ -823,10 +833,6 @@ footer a{
       line-height: 1rem;
     }
 	  
-	  .ft-col a:hover{
-		color: #007fd0 !important;
-	  }
-	  
 	
 	  
     .ft-col ul li {
@@ -836,7 +842,8 @@ footer a{
     .ft-col a {
       margin: .09rem;
     }
-	
+    
+    
     #email {
       margin-top: 1rem;
     }

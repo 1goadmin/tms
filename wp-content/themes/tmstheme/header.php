@@ -33,8 +33,8 @@
       <li class="item"><a href="https://in1gotech.com/patrons/" target="_blank">CLIENTS</a></li>
       <li class="item has-submenu" id="divi"><a rel="nofollow" tabindex="0" onClick='(href="#")'  id="div1">RESOURCES</a>
         <ul class="submenu">
-         <li class="sub-item"><a href="#">BLOGS</a></li>
-          <li class="sub-item"><a href="#">VIDEOS</a></li>
+         <li class="sub-item"><a href="https://in1gotech.com/blogs/" target="_blank">BLOGS</a></li>
+          <li class="sub-item"><a href="https://www.youtube.com/channel/UCWu79HfXHYax8e-wnLhJU3g/videos" target="_blank">VIDEOS</a></li>
         </ul>
       </li>
       <li class="item" id="contactUS"><a href="<?=bloginfo('url');?>/#contactus">CONTACT US</a></li>

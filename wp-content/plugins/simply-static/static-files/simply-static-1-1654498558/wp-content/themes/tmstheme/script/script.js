@@ -129,22 +129,25 @@ document.addEventListener("click", closeSubmenu, false);
 
 //!Submenu MouseHover Effect Web Based --------------------------------------------------------------------------------------------------------->
 //?Menu Hover
-$('.item.has-submenu').on({
+jQuery(document).ready(function($) {
+  // Code that uses jQuery's $ can follow here.
+$('.item.has-submenu' ||'.item.has-submenu ' ).on({
     mouseenter: function() {
       let self = $(this);
       setTimeout(function() {
-        $('.item.has-submenu',).addClass("submenu-active");
+        $('.item.has-submenu').addClass("submenu-active");
       }, 0);
     }
   });
-  // $('.submenu').on({
-  //   mouseleave: function() {
-  //     let self = $(this);
-  //     setTimeout(function() {
-  //       $('.item.has-submenu').removeClass('submenu-active');
-  //     }, 980);
-  //   }
-  // });
+ $('.submenu' &&'.item.has-submenu').on({
+    mouseleave: function() {
+      let self = $(this);
+      setTimeout(function() {
+        $('.item.has-submenu').removeClass('submenu-active');
+      }, 300);
+    }
+  });
+});
 
 //TODO ---------------------------------------------------------------------------------------------------------------------------------------->
 

@@ -266,7 +266,7 @@ a:focus {
 
 }
 .submenu{
-    top: 63px;
+    top: 75px;
 }
 
 
@@ -346,7 +346,7 @@ nav a {
 }
 .item {
     order: 1;
-    padding: 14px 14px 14px 14px !important;
+    padding: 25px 14px 25px 14px !important;
 }
 
 .submenu {
@@ -542,6 +542,16 @@ a .menu li.subitem a {
     .toggle {
         display: none;
     }
+    
+    .sub-a{
+      pointer-events: none !important;
+    }
+
+
+    .has-submenu>a::after {
+      pointer-events: none !important;
+  }
+
 }
 @media (min-width: 1200px) {
     .menu {

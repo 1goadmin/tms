@@ -137,48 +137,14 @@ $('.item.has-submenu').on({
       }, 0);
     }
   });
-  $('.submenu').on({
-    mouseleave: function() {
-      let self = $(this);
-      setTimeout(function() {
-        $('.item.has-submenu').removeClass('submenu-active');
-      }, 300);
-    }
-  });
-  $('.submenu.scrolled').on({
-    mouseleave: function() {
-      var self = $(this);
-      setTimeout(function() {
-        $('.item.has-submenu.scrolled').removeClass('hover');
-      }, 300);
-    }
-  });
-
-  $('.item.sol.has-submenu2').on({
-    mouseenter: function() {
-      let self = $(this);
-      setTimeout(function() {
-        $('.item.sol.has-submenu2',).addClass("submenu-active2");
-      }, 0);
-    }
-  });
-  $('.submenu2').on({
-    mouseleave: function() {
-      let self = $(this);
-      setTimeout(function() {
-        $('.item.sol.has-submenu2',).removeClass('submenu-active2');
-      }, 300);
-    }
-  });
-  $('.submenu2.scrolled').on({
-    mouseleave: function() {
-      var self = $(this);
-      setTimeout(function() {
-        $('.item.sol.has-submenu2',).removeClass('submenu-active2');
-      }, 300);
-    }
-  });
-
+  // $('.submenu').on({
+  //   mouseleave: function() {
+  //     let self = $(this);
+  //     setTimeout(function() {
+  //       $('.item.has-submenu').removeClass('submenu-active');
+  //     }, 980);
+  //   }
+  // });
 
 //TODO ---------------------------------------------------------------------------------------------------------------------------------------->
 

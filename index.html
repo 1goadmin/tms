@@ -739,7 +739,7 @@ Company						</div>
 <script type="text/javascript" src="./wp-includes/js/comment-reply.min.js" id="comment-reply-js"></script>
 <script type="text/javascript" id="happy-elementor-addons-js-extra">
 /* <![CDATA[ */
-var HappyLocalize = {"ajax_url":".\/wp-admin\/admin-ajax.php","nonce":"bb3f58cdb5","pdf_js_lib":".\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"};
+var HappyLocalize = {"ajax_url":".\/wp-admin\/admin-ajax.php","nonce":"4ad0ac5718","pdf_js_lib":".\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="./wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js" id="happy-elementor-addons-js"></script>
@@ -764,6 +764,36 @@ var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"
 /* ]]> */
 </script>
 <script type="text/javascript" src="./wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js" id="wpforms-elementor-js"></script>
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100677485664957");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <!-- jquery -->
 
 <!-- footer section -->
